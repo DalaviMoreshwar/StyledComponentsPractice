@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   color: ${(props) => props.theme.color.blue};
-  padding: ${(props) => props.theme.sizes[1]};
+  padding: ${(props) => props.theme.sizes[1]}px;
 `;
 
 export const Theme = {
